@@ -937,7 +937,7 @@ img {
     border: 1px solid #000000;
     cursor: pointer;
     margin-right: 8px;
-    background-image: url(/images/icon-check.svg);
+    background-image: url(../images/icon\ check.svg);
     background-position: center;
     background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -945,7 +945,7 @@ img {
 }
 .modal-form-term:checked + .modal-form-check-desc::before {
     background-color: var(--accent-color);
-    background-image: url(/images/icon-check.svg);
+    background-image: url(../images/icon\ check.svg);
     background-position: center;
     outline: none;
     background-size: 100%;
